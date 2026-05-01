@@ -51,9 +51,16 @@ const Footer = () => {
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </div>
         <div className="list-none flex gap-4 text-gray-400">
-          <li>Privacy Policy </li>
-          <li> Terms of Service </li>
-          <li>Cookies</li>
+          <li>
+            <a href="#">Privacy Policy</a>{" "}
+          </li>
+          <li>
+            {" "}
+            <a href="#">Terms of Service</a>{" "}
+          </li>
+          <li>
+            <a href="#">Cookies</a>
+          </li>
         </div>
       </div>
     </footer>
