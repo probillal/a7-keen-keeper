@@ -3,6 +3,7 @@ import RootLayout from "../Layout/RootLayout";
 import HomePage from "../Pages/HomePage/HomePage";
 import Timeline from "../Pages/Timeline/Timeline";
 import Stats from "../Pages/Stats/Stats";
+import Error from "../Pages/Error/Error";
 
 export const router = createBrowserRouter([
   {
@@ -22,5 +23,6 @@ export const router = createBrowserRouter([
         Component: Stats,
       },
     ],
+    errorElement: <Error></Error>,
   },
 ]);
